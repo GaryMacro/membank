@@ -1,0 +1,13 @@
+# Project Dependencies | 项目依赖
+# DashScope SDK version must be no less than 1.23.9 | dashscope SDK 版本需不低于 1.23.9
+dashscope>=1.23.9
+# PyAudio for audio processing | 用于音频处理的PyAudio
+pyaudio
+# python-dotenv for environment variable management | 用于环境变量管理的python-dotenv
+python-dotenv
+# langmem for conversation memory processing | 用于对话记忆处理的langmem
+# Note: Install from source or private repo, not on PyPI | 注意：需从源码或私有仓库安装，不在PyPI上
+langmem @ git+https://github.com/example/langmem.git@main
+# parselmouth for audio analysis | 用于音频分析的parselmouth
+praat-parselmouth
+pytest

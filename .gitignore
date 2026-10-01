@@ -1,0 +1,29 @@
+# Environment variables and secrets
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Log files
+*.log
+
+# Data directories (history, recordings, generated prompts/reports)
+history/
+recordings/
+langpmp/
+langrepo/
+
+# State files
+.conversation_counter
+
+# OS files
+.DS_Store
+Thumbs.db
